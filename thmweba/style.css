@@ -1,0 +1,90 @@
+/* theme name:thmweba
+author: root
+author: http://localhost/Wordpressweba
+version: 0.1 
+*/
+
+body{
+  margin: 0; padding: 0;
+  background:rgb(226, 243, 148);
+  }
+
+header{
+  background-color: rgb(230, 54, 171);
+  padding:2px;
+  color: white;
+}
+
+footer{
+  background-color:rgb(230, 54, 171);
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+header h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container{ 
+  width: 1020px;
+  margin: 0;
+  overflow: auto;
+  color:rgb(37, 35, 35);
+}
+   
+ul{
+  margin-bottom: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(64, 216, 216);
+}
+   
+li {
+  float: left;
+}
+      
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+      
+li a:hover {
+  background-color:orange;
+}
+/* .post-categories{
+  background: rgb(182, 177, 175);;
+        
+} */
+
+#input{
+  float: left;
+  margin-left: 70%;
+  margin-top: -3%;
+  border-radius: 5px;
+}
+
+#s{
+  border-radius: 2px;
+  border: none;
+  margin-top: -40px;
+}
+
+#searchsubmit{
+  border-radius: 2px;
+  border: none;
+  margin-top: -40px;
+}
+
+h3{
+  color:blue;
+}
